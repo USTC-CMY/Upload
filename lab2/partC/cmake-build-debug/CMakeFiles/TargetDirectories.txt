@@ -1,0 +1,3 @@
+/home/cmy/文档/lab2/partC/cmake-build-debug/CMakeFiles/partC_analysis.dir
+/home/cmy/文档/lab2/partC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cmy/文档/lab2/partC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
