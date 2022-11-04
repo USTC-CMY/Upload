@@ -1,0 +1,501 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "myproject/deps/zydis/libZydis.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories",
+			"set_target_properties",
+			"zyan_set_common_flags",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"myproject/deps/zydis/CMakeLists.txt",
+			"myproject/deps/zydis/dependencies/zycore/cmake/zyan-functions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 251,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 200,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 208,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "ZYCORE_STATIC_BUILD"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "ZYDIS_STATIC_BUILD"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/cmy/\u6587\u6863/System Programming in C/lab3/src/myproject/deps/zydis/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/cmy/\u6587\u6863/System Programming in C/lab3/src/cmake-build-debug/myproject/deps/zydis"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/cmy/\u6587\u6863/System Programming in C/lab3/src/myproject/deps/zydis/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/cmy/\u6587\u6863/System Programming in C/lab3/src/myproject/deps/zydis/dependencies/zycore/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/cmy/\u6587\u6863/System Programming in C/lab3/src/cmake-build-debug/myproject/deps/zydis/zycore"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				23,
+				24,
+				27,
+				28,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "Zycore::@fc03791d9eff0cf19886"
+		}
+	],
+	"id" : "Zydis::@0ae4d33d300155f8eada",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "Zydis",
+	"nameOnDisk" : "libZydis.a",
+	"paths" : 
+	{
+		"build" : "myproject/deps/zydis",
+		"source" : "myproject/deps/zydis"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				20,
+				21,
+				22,
+				25,
+				26,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				23,
+				24,
+				27,
+				28,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/Defines.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/MetaInfo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/Mnemonic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/Register.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/Segment.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/SharedTypes.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/ShortString.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/Status.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/Utils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/Zydis.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/Internal/SharedData.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "myproject/deps/zydis/include/Zydis/Internal/String.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/MetaInfo.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/Mnemonic.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/Register.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/Segment.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/SharedData.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/String.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/Utils.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/Zydis.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"path" : "myproject/deps/zydis/include/Zydis/Decoder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "myproject/deps/zydis/include/Zydis/DecoderTypes.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "myproject/deps/zydis/include/Zydis/Internal/DecoderData.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/Decoder.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/DecoderData.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"path" : "myproject/deps/zydis/include/Zydis/Encoder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"path" : "myproject/deps/zydis/include/Zydis/Internal/EncoderData.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/Encoder.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/EncoderData.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 12,
+			"path" : "myproject/deps/zydis/include/Zydis/Disassembler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"path" : "myproject/deps/zydis/include/Zydis/Formatter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"path" : "myproject/deps/zydis/include/Zydis/FormatterBuffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"path" : "myproject/deps/zydis/include/Zydis/Internal/FormatterATT.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"path" : "myproject/deps/zydis/include/Zydis/Internal/FormatterBase.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"path" : "myproject/deps/zydis/include/Zydis/Internal/FormatterIntel.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/Disassembler.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/Formatter.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/FormatterBuffer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/FormatterATT.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/FormatterBase.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "myproject/deps/zydis/src/FormatterIntel.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,147 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "myproject/deps/zydis",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-myproject.deps.zydis-Debug-737d84df072b2af44769.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "myproject/deps/zydis",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "myproject/deps/zydis/zycore",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-myproject.deps.zydis.zycore-Debug-90a23d2334dfb1d6db63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "myproject/deps/zydis/dependencies/zycore",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ssedb",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Zydis",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Zycore",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Zycore::@fc03791d9eff0cf19886",
+					"jsonFile" : "target-Zycore-Debug-f84a036be9ba481d5066.json",
+					"name" : "Zycore",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Zydis::@0ae4d33d300155f8eada",
+					"jsonFile" : "target-Zydis-Debug-3d311505b92abc4f2df9.json",
+					"name" : "Zydis",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ssedb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ssedb-Debug-3eb5ffffe742fb307876.json",
+					"name" : "ssedb",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cmy/\u6587\u6863/System Programming in C/lab3/src/cmake-build-debug",
+		"source" : "/home/cmy/\u6587\u6863/System Programming in C/lab3/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
