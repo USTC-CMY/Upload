@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/MyProject.dir/myproject.c.o -o MyProject  deps/zydis/libZydis.a deps/zydis/zycore/libZycore.a 

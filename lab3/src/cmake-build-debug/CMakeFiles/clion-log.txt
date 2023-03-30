@@ -1,7 +1,0 @@
-/snap/clion/209/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/209/bin/ninja/linux/ninja -G Ninja -S "/home/cmy/文档/System Programming in C/lab3/src" -B "/home/cmy/文档/System Programming in C/lab3/src/cmake-build-debug"
--- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
--- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
-Can't generate documentation, Doxygen not found.
--- Configuring done
--- Generating done
--- Build files have been written to: /home/cmy/文档/System Programming in C/lab3/src/cmake-build-debug
