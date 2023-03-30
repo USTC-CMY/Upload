@@ -1,3 +1,0 @@
-/home/cmy/文档/lab2/cmake-build-debug/CMakeFiles/lab2.dir
-/home/cmy/文档/lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/cmy/文档/lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

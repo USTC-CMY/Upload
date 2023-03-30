@@ -1,3 +1,0 @@
-/home/cmy/shares/共享文件夹/lab2/partB/cmake-build-debug/CMakeFiles/miniWireShark.dir
-/home/cmy/shares/共享文件夹/lab2/partB/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/cmy/shares/共享文件夹/lab2/partB/cmake-build-debug/CMakeFiles/rebuild_cache.dir
